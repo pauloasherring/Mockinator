@@ -34,10 +34,10 @@ import os
 import sys
 import tempfile
 
-from cpp import __version__
-from cpp import ast
-from cpp import tokenize
-from cpp import utils
+from mycpp import __version__
+from mycpp import ast
+from mycpp import tokenize
+from mycpp import utils
 
 
 def match_file(filename, exclude_patterns):
